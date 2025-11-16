@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/libs/common-cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/common-cache/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/common-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/common-dto/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/common-dto/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/common-messaging/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/common-messaging/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/common-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/common-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/account-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/customer-query-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/customer-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/document-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/kyc-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/ledger-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/numbering-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/onboarding-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/transfer-orchestrator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

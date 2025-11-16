@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: account-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/accountdb
+    username: postgres
+    password: system
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.show_sql: false
+      hibernate.format_sql: true
+      hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+
+server:
+  port: 8082
