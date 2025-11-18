@@ -6,6 +6,7 @@ import com.decksoft.accountservice.account.domain.model.AccountType;
 import com.decksoft.accountservice.api.dto.AccountResponse;
 import com.decksoft.accountservice.api.dto.CreateAccountRequest;
 import com.decksoft.accountservice.application.AccountCommandService;
+import common.domain.ApiResponse;
 import common.domain.CustomerId;
 import common.domain.Money;
 import jakarta.validation.Valid;
@@ -25,7 +26,7 @@ public class AccountController {
     }
 
     @PostMapping
-    public ResponseEntity<AccountResponse> openAccount(@Valid @RequestBody CreateAccountRequest req) {
+    public ResponseEntity<ApiResponse<AccountResponse>> openAccount(@Valid @RequestBody CreateAccountRequest req) {
         var customerId = new CustomerId(UUID.fromString(req.customerId()));
         var accountNumber = new AccountNumber(req.accountNumber());
         var type = AccountType.valueOf(req.type());
@@ -33,7 +34,7 @@ public class AccountController {
 
         Account account = accountCommandService.openAccount(customerId, accountNumber, type, openingBalance);
 
-        return ResponseEntity.ok(toResponse(account));
+        return ResponseEntity.ok(ApiResponse.success(toResponse(account)) );
     }
 
     private AccountResponse toResponse(Account a) {
